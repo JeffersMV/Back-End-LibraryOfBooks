@@ -1,0 +1,11 @@
+/Users/Home/VisualStudioProjects/LibraryOfBooks-Back-End/Back-End-LibraryOfBooks/bin/Debug/netcoreapp2.0/LibraryOfBooksServer.deps.json
+/Users/Home/VisualStudioProjects/LibraryOfBooks-Back-End/Back-End-LibraryOfBooks/bin/Debug/netcoreapp2.0/LibraryOfBooksServer.runtimeconfig.json
+/Users/Home/VisualStudioProjects/LibraryOfBooks-Back-End/Back-End-LibraryOfBooks/bin/Debug/netcoreapp2.0/LibraryOfBooksServer.runtimeconfig.dev.json
+/Users/Home/VisualStudioProjects/LibraryOfBooks-Back-End/Back-End-LibraryOfBooks/bin/Debug/netcoreapp2.0/LibraryOfBooksServer.dll
+/Users/Home/VisualStudioProjects/LibraryOfBooks-Back-End/Back-End-LibraryOfBooks/bin/Debug/netcoreapp2.0/LibraryOfBooksServer.pdb
+/Users/Home/VisualStudioProjects/LibraryOfBooks-Back-End/Back-End-LibraryOfBooks/obj/Debug/netcoreapp2.0/LibraryOfBooksServer.csprojResolveAssemblyReference.cache
+/Users/Home/VisualStudioProjects/LibraryOfBooks-Back-End/Back-End-LibraryOfBooks/obj/Debug/netcoreapp2.0/LibraryOfBooksServer.csproj.CoreCompileInputs.cache
+/Users/Home/VisualStudioProjects/LibraryOfBooks-Back-End/Back-End-LibraryOfBooks/obj/Debug/netcoreapp2.0/LibraryOfBooksServer.AssemblyInfoInputs.cache
+/Users/Home/VisualStudioProjects/LibraryOfBooks-Back-End/Back-End-LibraryOfBooks/obj/Debug/netcoreapp2.0/LibraryOfBooksServer.AssemblyInfo.cs
+/Users/Home/VisualStudioProjects/LibraryOfBooks-Back-End/Back-End-LibraryOfBooks/obj/Debug/netcoreapp2.0/LibraryOfBooksServer.dll
+/Users/Home/VisualStudioProjects/LibraryOfBooks-Back-End/Back-End-LibraryOfBooks/obj/Debug/netcoreapp2.0/LibraryOfBooksServer.pdb

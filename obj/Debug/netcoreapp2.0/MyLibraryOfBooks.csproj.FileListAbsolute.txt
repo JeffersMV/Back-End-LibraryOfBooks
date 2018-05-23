@@ -1,0 +1,11 @@
+/Users/Home/RiderProjects/MyLibraryOfBooks/MyLibraryOfBooks/bin/Debug/netcoreapp2.0/MyLibraryOfBooks.deps.json
+/Users/Home/RiderProjects/MyLibraryOfBooks/MyLibraryOfBooks/bin/Debug/netcoreapp2.0/MyLibraryOfBooks.runtimeconfig.json
+/Users/Home/RiderProjects/MyLibraryOfBooks/MyLibraryOfBooks/bin/Debug/netcoreapp2.0/MyLibraryOfBooks.runtimeconfig.dev.json
+/Users/Home/RiderProjects/MyLibraryOfBooks/MyLibraryOfBooks/bin/Debug/netcoreapp2.0/MyLibraryOfBooks.dll
+/Users/Home/RiderProjects/MyLibraryOfBooks/MyLibraryOfBooks/bin/Debug/netcoreapp2.0/MyLibraryOfBooks.pdb
+/Users/Home/RiderProjects/MyLibraryOfBooks/MyLibraryOfBooks/obj/Debug/netcoreapp2.0/MyLibraryOfBooks.csproj.CoreCompileInputs.cache
+/Users/Home/RiderProjects/MyLibraryOfBooks/MyLibraryOfBooks/obj/Debug/netcoreapp2.0/MyLibraryOfBooks.AssemblyInfoInputs.cache
+/Users/Home/RiderProjects/MyLibraryOfBooks/MyLibraryOfBooks/obj/Debug/netcoreapp2.0/MyLibraryOfBooks.AssemblyInfo.cs
+/Users/Home/RiderProjects/MyLibraryOfBooks/MyLibraryOfBooks/obj/Debug/netcoreapp2.0/MyLibraryOfBooks.dll
+/Users/Home/RiderProjects/MyLibraryOfBooks/MyLibraryOfBooks/obj/Debug/netcoreapp2.0/MyLibraryOfBooks.pdb
+/Users/Home/RiderProjects/MyLibraryOfBooks/MyLibraryOfBooks/obj/Debug/netcoreapp2.0/MyLibraryOfBooks.csprojResolveAssemblyReference.cache
