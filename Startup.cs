@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using System;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Cors.Internal;
@@ -28,9 +29,10 @@ namespace LibraryOfBooksServer
                         .AllowAnyHeader().AllowCredentials());
             });
             services.AddDbContext<AppDatabaseContext>(options =>
-                options.UseMySQL("server=localhost;port=3306;UserId=root;Password=;database=usersdb10;SslMode=none"));
+                options.UseSqlite("Data Source=lobsqlite.db"));
             services.AddMvc().AddJsonOptions(
-                options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+                options => options.SerializerSettings.ReferenceLoopHandling =
+                    Newtonsoft.Json.ReferenceLoopHandling.Ignore
             );
             services.Configure<MvcOptions>(options =>
             {
@@ -46,12 +48,14 @@ namespace LibraryOfBooksServer
             {
                 app.UseDeveloperExceptionPage();
             }
+
             app.UseCors("CorsPolicy");
 
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
+
             app.UseMvc();
         }
     }

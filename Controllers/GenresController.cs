@@ -4,12 +4,10 @@ using System.Linq;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Query;
 using LibraryOfBooksServer.Models;
 
 namespace LibraryOfBooksServer.Controllers
 {
-
     [Route("[controller]")]
     [EnableCors("CorsPolicy")]
     public class GenresController : Controller
@@ -36,7 +34,7 @@ namespace LibraryOfBooksServer.Controllers
         [HttpPost]
         public Genre Post([FromBody] Genre genre)
         {
-            Console.WriteLine(genre.Name);////////
+            Console.WriteLine(genre.Name); ////////
             _context.Genres.Add(genre);
             _context.SaveChanges();
             return _context.Genres.LastOrDefault();
@@ -50,6 +48,7 @@ namespace LibraryOfBooksServer.Controllers
                 _context.Update(genre);
                 _context.SaveChanges();
             }
+
             return _context.Genres.Where(g => g.Id == id).Include(g => g.Books);
         }
 
